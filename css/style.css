@@ -8,6 +8,12 @@ body {
   font-family: 'Fredoka', sans-serif;
 }
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 
 .centered-section {
   max-width: 1000px;
@@ -24,3 +30,60 @@ h1 {
   padding: 40px 0;
 }
 
+
+/* main cards */
+#cards {
+  color: white;
+}
+
+#cards .row {
+
+}
+
+#cards .col {
+  width: 33%;
+  min-width: 317px;
+
+  float: left;
+
+  padding: 16px 10px;
+
+  /* border: 1px solid black; */
+  /* background-color: #ff000020; */
+}
+
+#cards .card {
+  background-color: #0f0e17;
+}
+
+#cards .card img {
+  height: 100px;
+
+  float: left;
+}
+
+#cards .card-details {
+  float: left;
+
+  padding-left: 1em;
+  padding-top: 8px;
+}
+
+#cards .card-details ul {
+  list-style-type: none;
+}
+
+#cards .card-details ul li {
+  margin-bottom: 8px;
+}
+
+#cards .card-details .card-details__name {
+  text-transform: uppercase;
+}
+
+#cards .card-details .card-details__email a {
+  color: #47bce8;
+}
+#cards .card-details .card-details__email a:visited {
+  color: #47bce8;
+}
