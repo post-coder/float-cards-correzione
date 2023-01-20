@@ -17,11 +17,14 @@ body {
 
 .centered-section {
   max-width: 1000px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
   text-align: center;
+
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -34,10 +37,6 @@ h1 {
 /* main cards */
 #cards {
   color: white;
-}
-
-#cards .row {
-
 }
 
 #cards .col {
@@ -62,6 +61,7 @@ h1 {
   float: left;
 }
 
+/* cards details */
 #cards .card-details {
   float: left;
 
@@ -82,8 +82,5 @@ h1 {
 }
 
 #cards .card-details .card-details__email a {
-  color: #47bce8;
-}
-#cards .card-details .card-details__email a:visited {
   color: #47bce8;
 }
